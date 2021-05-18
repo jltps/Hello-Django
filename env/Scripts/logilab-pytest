@@ -1,0 +1,7 @@
+#!c:\users\jlts\onedrive\projects\hello-django\env\scripts\python.exe
+
+import warnings
+warnings.simplefilter('default', DeprecationWarning)
+
+from logilab.common.pytest import run
+run()
